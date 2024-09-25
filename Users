@@ -1,0 +1,32 @@
+class Users:
+    def __init__(self, id, login, password, phone,mail,fullname, role_id):
+        self.__id = id
+        self.__login = login
+        self.__password = password
+        self.__phone = phone
+        self.__mail = mail
+        self.__fullname = fullname
+        self.__role_id = role_id
+
+
+    @property
+    def id(self):
+        return  self.__id
+    @property
+    def login(self):
+        return self.__login
+    @property
+    def password(self):
+        return self.__password
+    @property
+    def phone(self):
+        return self.__phone
+    @property
+    def mail(self):
+        return self.__mail
+    @property
+    def fullname(self):
+        return self.__fullname
+    @property
+    def role_id(self):
+        return self.__role_id
